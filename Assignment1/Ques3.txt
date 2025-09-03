@@ -1,0 +1,13 @@
+Predict the Output of the following program
+int main(){
+
+    int i;
+    int arr[5] = {1};
+    for (i = 0; i < 5; i++)
+        printf("%d",arr[i]);
+    return 0;
+ 
+}
+
+
+Answer ------ This program prints the 5 elements present in arr in which the element at base index is 1, followed by rest 4 garbage values.
